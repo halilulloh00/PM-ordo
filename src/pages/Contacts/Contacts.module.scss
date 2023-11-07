@@ -1,0 +1,21 @@
+.contacts {
+  padding: 40px;
+
+  .textOfContacts {
+    display: flex;
+    margin: 30px 0;
+    font-size: 20px;
+
+    ol {
+      padding-right: 100px;
+    }
+
+    ul {
+      padding: 20px 0;
+    }
+
+    li {
+      padding: 5px 0;
+    }
+  }
+}

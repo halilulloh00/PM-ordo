@@ -1,0 +1,95 @@
+$main-color: #ec9a1e;
+$secondary-color: #9d9b9b;
+$label-color: #47535f;
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  .form {
+    width: 510px;
+    height: 605px;
+    border: 1px solid $secondary-color;
+    padding: 70px 80px 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    h1 {
+      text-align: center;
+      font-size: 26px;
+      font-weight: 500;
+    }
+
+    .inputs {
+        margin: 38px 0 30px;
+        
+    input {
+        text-align: center;
+        font-size: 18px;
+        color: rgba(0, 0, 0, 0.80);
+        font-weight: 400; 
+        padding: 17px 20px;
+        align-items: center;
+        gap: 10px;
+        border: 1px solid $secondary-color;
+        border-radius: 15px;
+        background-color: #fff;
+        outline: none;
+        width: 100%;
+        margin-top: 10px;
+        cursor: pointer;
+      }
+    }
+    .btnFYP {
+      display: block;
+      margin: 10px 0 30px;
+      text-align: right;
+      color: #9d9b9b;
+    }
+    button {
+      border-radius: 14px;
+      border: none;
+      color: white;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 14px 0;
+      cursor: pointer;
+    }
+    .btnOrange {
+      background-color: $main-color;
+      margin-bottom: 10px;
+    }
+    .btnGoogle {
+      border: 1px solid $secondary-color;
+      background-color: #fff;
+      color: #1b1c1f;
+      font-weight: 500;
+      flex: 16;
+    }
+    .linkSignUp {
+      margin: 30px 0 55px;
+      text-align: center;
+      a {
+        color: $main-color;
+      }
+    }
+    .agreement {
+      color: $secondary-color;
+      font-size: 12px;
+      font-weight: 500;
+      span {
+        text-decoration-line: underline;
+      }
+      a {
+        color: $main-color;
+      }
+    }
+  }
+}

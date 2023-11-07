@@ -1,0 +1,24 @@
+.footer {
+  background-color: rgb(203, 161, 109);
+  color: white;
+  padding: 60px 150px;
+  font-size: 20px;
+
+  li {
+    padding: 5px 0;
+
+    &:nth-child(1) {
+      font-weight: bold;
+      padding: 10px 0;
+    }
+  }
+
+  .links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    padding-top: 50px;
+  }
+}

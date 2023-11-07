@@ -1,0 +1,26 @@
+.aboutUs {
+  padding: 40px 60px;
+  font-size: 22px;
+
+  h1 {
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  .welcome {
+    margin-bottom: 100px;
+  }
+
+  .facts {
+    p {
+      padding: 10px 0;
+    }
+
+    .double {
+      display: flex;
+      .imgFacts {
+        width: 400px;
+      }
+    }
+  }
+}
